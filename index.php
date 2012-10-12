@@ -41,21 +41,21 @@ function encodeHtml(s){
 function change(type){    //更改样式
     var css=document.getElementById("css"); 
     if ("default"==type)
-    	css.setAttribute("href","/styles/shCoreDefault.css"); 
+    	css.setAttribute("href","styles/shCoreDefault.css"); 
     if ("emacs"==type)
-    	css.setAttribute("href","/styles/shCoreEmacs.css"); 
+    	css.setAttribute("href","styles/shCoreEmacs.css"); 
 	if ("django"==type)
-    	css.setAttribute("href","/styles/shCoreDjango.css");
+    	css.setAttribute("href","styles/shCoreDjango.css");
 	if ("eclipse"==type)
-    	css.setAttribute("href","/styles/shCoreEclipse.css");
+    	css.setAttribute("href","styles/shCoreEclipse.css");
 	if ("fadetogrey"==type)
-    	css.setAttribute("href","/styles/shCoreFadeToGrey.css");
+    	css.setAttribute("href","styles/shCoreFadeToGrey.css");
 	if ("mdultra"==type)
-    	css.setAttribute("href","/styles/shCoreMDUltra.css");
+    	css.setAttribute("href","styles/shCoreMDUltra.css");
 	if ("midnight"==type)
-    	css.setAttribute("href","/styles/shCoreMidnight.css");
+    	css.setAttribute("href","styles/shCoreMidnight.css");
 	if ("rdark"==type)
-    	css.setAttribute("href","/styles/shCoreRDark.css");
+    	css.setAttribute("href","styles/shCoreRDark.css");
 	render();
 } 
 $(document).ready(function (){
@@ -103,7 +103,7 @@ function render(){
 	jQuery.cookies.set("lang_type",$('#code_type').val(),cookieOptions);
 }
 function toHTML(){
-	var html="<link rel='stylesheet' type='text/css' href='http://gaoliang.duapp.com";
+	var html="<link rel='stylesheet' type='text/css' href='http://wangdaodao.com/code/";
 	html=html+$("#css").attr("href");
 	html=html+"'/>";
 	html=html+$(".syntaxhighlighter").parent().html();
@@ -184,7 +184,7 @@ echo &quot;Hello, World!&quot;;
 </div>
 <div id="footer">
 	<p class="wrapper">
-		在线代码高亮 由 <a href="http://www.baidu.com/" target="_blank">百度</a> 提供服务器  <a href="/">普通版</a> <a href="my.php">纯代码版</a>  <script type="text/javascript" src="http://tajs.qq.com/stats?sId=14956039" charset="UTF-8"></script>
+		在线代码高亮 <a href="index.php">普通版</a> <a href="my.php">纯代码版</a> 
 	</p>
 </div>
 </body>

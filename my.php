@@ -41,21 +41,21 @@ function encodeHtml(s){
 function change(type){    //更改样式
     var css=document.getElementById("css"); 
     if ("default"==type)
-    	css.setAttribute("href","/styles/shCoreDefault.css"); 
+    	css.setAttribute("href","styles/shCoreDefault.css"); 
     if ("emacs"==type)
-    	css.setAttribute("href","/styles/shCoreEmacs.css"); 
+    	css.setAttribute("href","styles/shCoreEmacs.css"); 
 	if ("django"==type)
-    	css.setAttribute("href","/styles/shCoreDjango.css");
+    	css.setAttribute("href","styles/shCoreDjango.css");
 	if ("eclipse"==type)
-    	css.setAttribute("href","/styles/shCoreEclipse.css");
+    	css.setAttribute("href","styles/shCoreEclipse.css");
 	if ("fadetogrey"==type)
-    	css.setAttribute("href","/styles/shCoreFadeToGrey.css");
+    	css.setAttribute("href","styles/shCoreFadeToGrey.css");
 	if ("mdultra"==type)
-    	css.setAttribute("href","/styles/shCoreMDUltra.css");
+    	css.setAttribute("href","styles/shCoreMDUltra.css");
 	if ("midnight"==type)
-    	css.setAttribute("href","/styles/shCoreMidnight.css");
+    	css.setAttribute("href","styles/shCoreMidnight.css");
 	if ("rdark"==type)
-    	css.setAttribute("href","/styles/shCoreRDark.css");
+    	css.setAttribute("href","styles/shCoreRDark.css");
 	render();
 } 
 $(document).ready(function (){
@@ -191,7 +191,7 @@ echo &quot;Hello, World!&quot;;
 
         <td class="code">
           <div class="container">
-            <div class="line number1 index0 alt2"><code class="php plain">&lt;link rel=</code><code class="php string">'stylesheet'</code>&#160;<code class="php plain">type=</code><code class="php string">'text/css'</code>&#160;<code class="php plain">href=</code><code class="php string">'http://gaoliang.duapp.com/styles/shCoreDefault.css'</code><code class="php plain">/&gt;</code></div>
+            <div class="line number1 index0 alt2"><code class="php plain">&lt;link rel=</code><code class="php string">'stylesheet'</code>&#160;<code class="php plain">type=</code><code class="php string">'text/css'</code>&#160;<code class="php plain">href=</code><code class="php string">'http://wangdaodao/code/styles/shCoreDefault.css'</code><code class="php plain">/&gt;</code></div>
           </div>
         </td>
       </tr>
@@ -202,7 +202,7 @@ echo &quot;Hello, World!&quot;;
 </div>
 <div id="footer">
 	<p class="wrapper">
-		在线代码高亮(纯代码版) 由 <a href="http://www.baidu.com/" target="_blank">百度</a> 提供服务器  <a href="/">普通版</a> <a href="my.php">纯代码版</a>  <script type="text/javascript" src="http://tajs.qq.com/stats?sId=14956039" charset="UTF-8"></script>
+		在线代码高亮(纯代码版) <a href="index.php">普通版</a> <a href="my.php">纯代码版</a>
 	</p>
 </div>
 </body>
